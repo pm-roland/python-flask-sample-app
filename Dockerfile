@@ -8,7 +8,7 @@ WORKDIR /app
 
 RUN pip install --editable .
 
-RUN export FLASK_APP=minitwit
+RUN export FLASK_APP=minitwit.py
 
 RUN flask initdb
 
